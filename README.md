@@ -1,0 +1,1 @@
+Hello! This is just a fun little project on figuring out how to manage floats without the use of CSS toolkits.
