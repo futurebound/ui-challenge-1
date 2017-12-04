@@ -1,0 +1,130 @@
+.clear-fix {
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+header div {
+    display: block;
+    width: 100%;
+    height: 75px;
+    background-color: blue;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: green;
+}
+
+.main-container {
+    display: block;
+    width: 100%;
+}
+
+.main-container-content {
+    display: block;
+    width: 100%;
+    height: 125px;
+    background-color: purple;
+}
+
+.main-secondary-container {
+    width: 100%;
+}
+
+.main-secondary-container-content {
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    background-color: orange;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: teal;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .pull-left {
+        float: none;
+    }
+
+    .pull-right {
+        float: none;
+    }
+
+    header div {
+        display: block;
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+    }
+
+    nav {
+        display: inline-block;
+        float: left;
+        width: 200px;
+        height: 600px;
+        background-color: green;
+    }
+
+    main {
+        display: inline-block;
+        width: 760px;
+        float: right;
+    } 
+
+    .main-container {
+        clear: both;
+        display: block;
+        width: 760px;
+        height: 200px;
+    }
+
+    .main-container-content {
+        display: inline-block;
+        float: left;
+        margin: 0px;
+        width: 380px;
+        height: 200px;
+        background-color: purple;
+    }
+
+    .main-secondary-container {
+        clear: both;
+        width: 760px;
+        height: 250px;
+    }
+
+    .main-secondary-container-content {
+        display: inline-block;
+        float: left;
+        margin: 0px;
+        width: 190px;
+        height: 250px;
+        background-color: orange;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+        background-color: teal;
+    }
+        
+
+}
+
